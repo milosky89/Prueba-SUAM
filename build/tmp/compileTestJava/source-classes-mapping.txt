@@ -1,0 +1,4 @@
+co/com/testqa/runners/ComprarCelularRunner.java
+ co.com.testqa.runners.ComprarCelularRunner
+co/com/testqa/stepdefinitions/ComprarCelularStep.java
+ co.com.testqa.stepdefinitions.ComprarCelularStep
