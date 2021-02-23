@@ -18,14 +18,6 @@ public class Answer implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        boolean result;
-        String confirmarCompra= Text.of(ComprarCelularPage.CONFIRMACION).viewedBy(actor).asString();
-        if ((question.equals(confirmarCompra))){
-            result = true;
-        }else  {
-            result = false;
-        }
-
-        return result;
+         return question.equals(Text.of(ComprarCelularPage.CONFIRMACION()).viewedBy(actor).asString());
     }
 }

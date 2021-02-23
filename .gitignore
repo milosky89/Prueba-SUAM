@@ -1,0 +1,9 @@
+target/
+*.exe
+*.log
+*.bat
+.gradle
+.idea
+build/
+gradle/
+history/
